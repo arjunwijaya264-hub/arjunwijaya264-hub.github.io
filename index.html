@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arjun Wijaya, S.P — Agriculture Professional</title>
+  <meta name="description" content="Portfolio profesional Arjun Wijaya, S.P — Agribisnis, operasional perkebunan, administrasi, pelaporan, koordinasi dan manajemen data.">
+  <meta name="author" content="Arjun Wijaya">
+  <meta name="theme-color" content="#8f79e9">
+  <meta property="og:title" content="Arjun Wijaya, S.P — Agriculture Professional">
+  <meta property="og:description" content="Agriculture Professional dengan pengalaman operasional dan administrasi perkebunan kelapa sawit.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/profile.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Arjun Wijaya, S.P — Agriculture Professional">
+  <meta name="twitter:description" content="Portfolio profesional Arjun Wijaya, S.P.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#fbfaff; --surface:#fff; --ink:#252433; --muted:#727181;
+      --lilac:#ddd5ff; --lilac-strong:#a993ff; --blue:#dceeff; --line:#eceaf4;
+      --shadow:0 20px 60px rgba(72,59,120,.10); --radius:24px;
+    }
+    *{box-sizing:border-box;scroll-behavior:smooth}
+    body{margin:0;background:linear-gradient(180deg,#fcfbff 0%,#fff 55%,#f8fbff 100%);color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.65}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .container{width:min(1120px,92%);margin:auto}
+    .nav{position:sticky;top:0;z-index:20;background:rgba(252,251,255,.84);backdrop-filter:blur(16px);border-bottom:1px solid rgba(236,234,244,.8)}
+    .nav-inner{height:74px;display:flex;align-items:center;justify-content:space-between}
+    .brand{font-family:Manrope,sans-serif;font-weight:800;letter-spacing:-.03em}
+    .brand span{color:#8e79e8}
+    .nav-links{display:flex;gap:26px;font-size:14px;color:#626072}
+    .nav-links a:hover{color:#7d68d7}.nav-links.open{display:flex;position:absolute;top:66px;left:0;right:0;background:rgba(252,251,255,.98);padding:18px 4%;border-bottom:1px solid var(--line);flex-direction:column;gap:14px}
+    .menu{display:none;border:0;background:transparent;font-size:24px}
+    .hero{padding:84px 0 74px}
+    .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:68px;align-items:center}
+    .eyebrow{display:inline-flex;align-items:center;gap:8px;padding:8px 13px;border:1px solid #e7e1ff;background:#f5f2ff;color:#735fd0;border-radius:999px;font-size:13px;font-weight:700}
+    h1,h2,h3{font-family:Manrope,sans-serif;line-height:1.12;letter-spacing:-.035em}
+    h1{font-size:clamp(44px,6vw,74px);margin:20px 0 18px}
+    .hero h1 span{color:#8f79e9}
+    .lead{font-size:18px;color:var(--muted);max-width:650px}
+    .hero-actions{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:9px;padding:13px 18px;border-radius:14px;font-weight:700;font-size:14px;border:1px solid var(--line)}
+    .btn-primary{background:#8f79e9;color:white;border-color:#8f79e9;box-shadow:0 12px 28px rgba(143,121,233,.24)}
+    .btn-soft{background:white}
+    .hero-card{position:relative}
+    .portrait-wrap{background:linear-gradient(145deg,#eee9ff,#e7f4ff);border-radius:34px;padding:15px;box-shadow:var(--shadow);transform:rotate(1.5deg)}
+    .portrait-wrap img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:25px}
+    .floating{position:absolute;left:-24px;bottom:28px;background:white;border:1px solid var(--line);box-shadow:var(--shadow);padding:14px 16px;border-radius:17px;font-size:13px}
+    .floating b{display:block;font-family:Manrope;font-size:18px}
+    section{padding:82px 0}
+    .section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:30px}
+    .kicker{font-size:12px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:#907be4}
+    h2{font-size:clamp(32px,4vw,48px);margin:7px 0 0}
+    .section-intro{max-width:520px;color:var(--muted);margin:0}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+    .card{background:rgba(255,255,255,.86);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:0 12px 38px rgba(66,58,100,.055)}
+    .about-copy p{margin-top:0;color:#5e5b6a}
+    .stats{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .stat{padding:20px;border-radius:20px;background:linear-gradient(135deg,#f3efff,#f0f8ff);border:1px solid #e9e4fb}
+    .stat strong{display:block;font:800 30px Manrope;color:#7e69d4}
+    .stat span{font-size:13px;color:#696675}
+    .timeline{position:relative;margin-left:9px}
+    .timeline:before{content:"";position:absolute;left:9px;top:5px;bottom:5px;width:1px;background:#ded9f0}
+    .timeline-item{position:relative;padding:0 0 32px 40px}
+    .timeline-item:before{content:"";position:absolute;left:3px;top:7px;width:13px;height:13px;border-radius:50%;background:#a993ff;box-shadow:0 0 0 5px #f0edff}
+    .role{font:700 20px Manrope;margin:0 0 3px}
+    .company{color:#7d68d7;font-weight:700;font-size:14px}
+    .date{font-size:13px;color:#898694;margin:4px 0 11px}
+    .timeline-item ul{margin:0;padding-left:18px;color:#646170}
+    .timeline-item li{margin:5px 0}
+    .intern-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .intern-card{overflow:hidden;padding:0}
+    .intern-card img{height:205px;width:100%;object-fit:cover}
+    .intern-body{padding:22px}
+    .tag{display:inline-block;padding:6px 9px;background:#f2efff;color:#7763d2;border-radius:9px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+    .intern-body h3{font-size:20px;margin:12px 0 4px}
+    .intern-body .date{margin-bottom:12px}
+    .intern-body p{font-size:14px;color:#676472;margin:0}
+    .skills-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .skill-card h3{font-size:18px;margin:0 0 16px}
+    .chips{display:flex;gap:9px;flex-wrap:wrap}
+    .chip{background:#faf9fd;border:1px solid #e8e5ef;border-radius:999px;padding:8px 12px;font-size:13px;color:#595664}
+    .gallery{display:grid;grid-template-columns:1.15fr .85fr .85fr;grid-auto-rows:190px;gap:14px}
+    .gallery figure{margin:0;overflow:hidden;border-radius:20px;background:#eee}
+    .gallery figure:first-child{grid-row:span 2}
+    .gallery img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+    .gallery figure:hover img{transform:scale(1.04)}
+    .edu{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .edu-card{position:relative;overflow:hidden}
+    .edu-card:after{content:"";position:absolute;width:130px;height:130px;border-radius:50%;right:-45px;top:-45px;background:#eaf5ff}
+    .edu-card h3{font-size:21px;margin:0 0 6px}
+    .edu-card p{margin:4px 0;color:#696674}
+    .highlight{background:linear-gradient(135deg,#f0ebff,#eef8ff);border:1px solid #e5e0f4}
+    .cta{background:linear-gradient(135deg,#eae3ff,#e6f5ff);border:1px solid #e2ddf1;border-radius:32px;padding:45px;display:flex;justify-content:space-between;align-items:center;gap:30px}
+    .cta h2{font-size:38px}
+    .cta p{color:#625f6c;margin-bottom:0}
+    footer{padding:35px 0 50px;color:#888591;font-size:13px}
+    footer .foot{display:flex;justify-content:space-between;gap:20px;align-items:center}
+    .social{font-weight:800;color:#7662ce}
+    .reveal{opacity:0;transform:translateY(18px);transition:.65s ease}
+    .reveal.show{opacity:1;transform:none}
+
+    .focus-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+    .focus-strip>div{padding:19px 21px;border:1px solid var(--line);background:rgba(255,255,255,.7);border-radius:19px}
+    .focus-strip span{display:block;font-size:10px;letter-spacing:.15em;font-weight:800;color:#907be4;margin-bottom:5px}
+    .focus-strip strong{display:block;font:700 18px Manrope;margin-bottom:2px}
+    .focus-strip small{color:#777482;font-size:12px}
+    @media(max-width:850px){.focus-strip{grid-template-columns:1fr}}
+    @media print{
+      .nav,.hero-actions,.cta,.social,.menu{display:none!important}
+      body{background:#fff}
+      section{padding:35px 0}
+      .card{box-shadow:none}
+      a{text-decoration:none}
+    }
+    @media(max-width:850px){
+      .nav-links{display:none}.menu{display:block}
+      .hero-grid,.about-grid,.skills-grid,.edu{grid-template-columns:1fr}
+      .hero{padding-top:55px}.floating{left:10px}
+      .intern-grid{grid-template-columns:1fr 1fr}
+      .gallery{grid-template-columns:1fr 1fr}
+      .gallery figure:first-child{grid-row:span 1}
+      .cta{flex-direction:column;align-items:flex-start}
+    }
+    @media(max-width:560px){
+      .intern-grid{grid-template-columns:1fr}
+      .gallery{grid-template-columns:1fr;grid-auto-rows:220px}
+      .stats{grid-template-columns:1fr}
+      .cta{padding:30px}.cta h2{font-size:30px}
+      .nav-inner{height:66px}
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Arjun Wijaya",
+    "jobTitle":"Agriculture Professional",
+    "alumniOf":{
+      "@type":"CollegeOrUniversity",
+      "name":"Universitas Tanjungpura"
+    },
+    "sameAs":["https://id.linkedin.com/in/arjun-wijaya-3a41ab324","https://www.instagram.com/arjunwijaya1/"]
+  }
+  </script>
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="#home">ARJUN <span>WIJAYA</span></a>
+    <nav class="nav-links">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#internship">Internship</a>
+      <a href="#skills">Skills</a><a href="#education">Education</a><a href="#gallery">Gallery</a>
+    </nav>
+    <button class="menu" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="reveal">
+        <div class="eyebrow">Agriculture Professional · S.P</div>
+        <h1>Operational thinking,<br><span>people & data.</span></h1>
+        <p class="lead">Lulusan S1 Agribisnis Universitas Tanjungpura dengan pengalaman hampir 3 tahun dalam operasional dan administrasi perkebunan kelapa sawit. Terbiasa mengelola data, laporan, koordinasi tim, dan target operasional.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#experience">Lihat pengalaman →</a>
+          <a class="btn btn-soft" href="https://id.linkedin.com/in/arjun-wijaya-3a41ab324" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="btn btn-soft" href="https://www.instagram.com/arjunwijaya1/" target="_blank" rel="noopener">Instagram ↗</a>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <div class="portrait-wrap"><img src="assets/profile.png" alt="Arjun Wijaya"></div>
+        <div class="floating"><b>3.65 / 4.00</b>GPA · Agribusiness</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="section-head reveal"><div><div class="kicker">01 · About</div><h2>Ringkas tentang saya.</h2></div></div>
+      <div class="about-grid">
+        <article class="card about-copy reveal">
+          <p>Saya merupakan lulusan Sarjana Pertanian jurusan Agribisnis yang memiliki pengalaman di bidang operasional dan administrasi perkebunan kelapa sawit.</p>
+          <p>Selama berkarier, saya terbiasa mengelola kegiatan operasional lapangan, mengoordinasikan tenaga kerja, menyusun laporan, serta memastikan target pekerjaan berjalan sesuai standar perusahaan.</p>
+          <p>Saya adaptif, disiplin, berorientasi pada hasil, senang mempelajari hal baru, dan mampu bekerja baik di lapangan maupun lingkungan administrasi dengan ketelitian dan tanggung jawab.</p>
+        </article>
+        <div class="stats reveal">
+          <div class="stat"><strong>91</strong><span>orang tim yang pernah dikoordinasikan</span></div>
+          <div class="stat"><strong>753 ha</strong><span>area operasional yang pernah dikelola</span></div>
+          <div class="stat"><strong>94%+</strong><span>realisasi backlog pemupukan</span></div>
+          <div class="stat"><strong>1.5%</strong><span>losses operasional setelah perbaikan</span></div>
+        </div>
+      </div>
+    </div>
+
+      <div class="focus-strip reveal">
+        <div><span>FOCUS</span><strong>Operations</strong><small>Target, SOP & field execution</small></div>
+        <div><span>FOCUS</span><strong>Reporting</strong><small>Data, verification & management reports</small></div>
+        <div><span>FOCUS</span><strong>Coordination</strong><small>People, functions & work planning</small></div>
+      </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <div class="section-head reveal"><div><div class="kicker">02 · Career</div><h2>Pengalaman kerja.</h2></div><p class="section-intro">Pengalaman profesional diambil dari CV terbaru, dengan fokus pada operasional, administrasi, pelaporan, koordinasi dan pengendalian pekerjaan.</p></div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <h3 class="role">Staff GEM (Group Estate Manager)</h3><div class="company">KPN Plantation · PT. Graha Agro Nusantara</div><div class="date">Okt 2025 — Ags 2026</div>
+          <ul><li>Mengumpulkan, memverifikasi dan merekap 20 laporan harian dari 3 estate sebagai bahan evaluasi GEM.</li><li>Menyusun laporan mingguan/bulanan serta menyiapkan data dan presentasi (PPT) untuk Weekly, RMM, MoM.</li><li>Berkoordinasi dengan Asisten Afdeling, KTU, dan Estate Manager untuk kelengkapan data dan ketepatan waktu pelaporan.</li></ul>
+        </article>
+        <article class="timeline-item reveal">
+          <h3 class="role">Assistant Afdeling</h3><div class="company">KPN Plantation · PT. Graha Agro Nusantara</div><div class="date">Ags 2024 — Sep 2025</div>
+          <ul><li>Memimpin dan mengoordinasikan tim operasional sebanyak 91 orang di area ±753 ha untuk mencapai target produksi sesuai anggaran.</li><li>Merancang strategi pengendalian HPT hingga rotasi normal dalam 3 bulan.</li><li>Mengejar backlog pemupukan hingga realisasi di atas 94% dan menormalkan rotasi semprot dalam ±4 bulan.</li><li>Menurunkan losses operasional menjadi 1,5% melalui pengawasan dan evaluasi kerja.</li><li>Mengelola administrasi operasional, kontrol realisasi anggaran, dan penerapan K3.</li></ul>
+        </article>
+        <article class="timeline-item reveal">
+          <h3 class="role">Assistant Afdeling</h3><div class="company">PT. Dharma Satya Nusantara Tbk · PT. Agro Andalan</div><div class="date">Ags 2023 — Jul 2024</div>
+          <ul><li>Mengelola operasional afdeling ±679 ha dan mengoordinasikan 84 orang untuk memastikan target produksi sesuai rencana kerja dan anggaran.</li><li>Menyusun rencana kerja harian, bulanan, dan tahunan berdasarkan anggaran serta target operasional.</li><li>Mengawasi administrasi operasional dan berpartisipasi dalam program peningkatan kualitas melalui Quality Control Circle (QCC).</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="internship">
+    <div class="container">
+      <div class="section-head reveal"><div><div class="kicker">03 · Internship</div><h2>Pengalaman magang & proyek.</h2></div></div>
+      <div class="intern-grid">
+        <article class="card intern-card reveal"><img src="assets/internship-wisata.png" alt="Wisata Edukasi Kebun Buah Sintang"><div class="intern-body"><span class="tag">Internship</span><h3>Wisata Edukasi Kebun Buah Sintang</h3><div class="date">Jun — Sep 2022 · Staff Operasional & Pelayanan Konsumen</div><p>Pelayanan dan edukasi pengunjung, pemandu agrowisata, penjualan langsung, pengembangan produk olahan, serta kasir dan transaksi harian.</p></div></article>
+        <article class="card intern-card reveal"><img src="assets/internship-kkn.png" alt="KKN Tematik Desa Mekarsari"><div class="intern-body"><span class="tag">Project</span><h3>KKN Tematik Desa Mekarsari</h3><div class="date">Okt — Des 2022 · Ketua Kelompok</div><p>Mengoordinasikan tim, observasi petani, pendampingan pengendalian gulma padi, serta program dan penyuluhan pembuatan pupuk organik cair.</p></div></article>
+        <article class="card intern-card reveal"><img src="assets/internship-karyamas.png" alt="PT Karyamas Adinusantara"><div class="intern-body"><span class="tag">Internship</span><h3>PT. Karyamas Adinusantara</h3><div class="date">Ags 2021 — Jan 2022 · Program Magang Agronomy</div><p>Keselamatan kerja, pemupukan, pengendalian OPT terpadu, pengarahan pekerjaan pemeliharaan dan panen, pelaporan hasil kerja, serta pengelolaan divisi dan karyawan.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="section-head reveal"><div><div class="kicker">04 · Skills</div><h2>Keahlian.</h2></div></div>
+      <div class="skills-grid">
+        <article class="card skill-card reveal"><h3>Administrasi & Data</h3><div class="chips"><span class="chip">Administrasi & Pelaporan</span><span class="chip">Rekap Data Multi-estate</span><span class="chip">Verifikasi Data</span><span class="chip">Manajemen Data</span><span class="chip">Dokumentasi</span><span class="chip">Koordinasi Lintas Fungsi</span></div></article>
+        <article class="card skill-card reveal"><h3>Microsoft Excel</h3><div class="chips"><span class="chip">VLOOKUP</span><span class="chip">XLOOKUP</span><span class="chip">Pivot Table</span><span class="chip">SUMIF / SUMIFS</span><span class="chip">COUNTIFS</span><span class="chip">Data Validation</span><span class="chip">Conditional Formatting</span></div></article>
+        <article class="card skill-card reveal"><h3>Leadership & Operasional</h3><div class="chips"><span class="chip">Leadership</span><span class="chip">Team Management</span><span class="chip">Planning & Scheduling</span><span class="chip">Problem Solving</span><span class="chip">Komunikasi</span></div></article>
+        <article class="card skill-card reveal"><h3>Tools & Language</h3><div class="chips"><span class="chip">Microsoft Word</span><span class="chip">PowerPoint</span><span class="chip">Canva</span><span class="chip">Indonesia — Native</span><span class="chip">Inggris — Elementary–Lower Intermediate</span></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <div class="section-head reveal"><div><div class="kicker">05 · Education</div><h2>Pendidikan.</h2></div></div>
+      <div class="edu">
+        <article class="card highlight edu-card reveal"><h3>S1 Agribisnis</h3><p>Universitas Tanjungpura · 2019 — 2023</p><p><strong>GPA 3.65 / 4.00</strong> · Cum Laude</p></article>
+        <article class="card edu-card reveal"><h3>MA Darul Ma'arif Sintang</h3><p>Major: Social Sciences</p><p><strong>Overall Best Graduate</strong> · Senior High School Graduation, 2019</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="container">
+      <div class="section-head reveal"><div><div class="kicker">06 · Visuals</div><h2>Field notes.</h2></div><p class="section-intro">Cuplikan aktivitas lapangan, tim, dan kegiatan profesional dari portfolio.</p></div>
+      <div class="gallery reveal">
+        <figure><img src="assets/work-field.png" alt="Aktivitas lapangan perkebunan"></figure>
+        <figure><img src="assets/work-team.png" alt="Tim lapangan"></figure>
+        <figure><img src="assets/work-kpn.png" alt="Kegiatan operasional"></figure>
+        <figure><img src="assets/work-meeting-1.png" alt="Meeting operasional"></figure>
+        <figure><img src="assets/work-meeting-2.png" alt="Meeting dan koordinasi"></figure>
+        <figure><img src="assets/work-meeting-3.png" alt="Koordinasi tim"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="cta reveal">
+        <div><div class="kicker">Let's connect</div><h2>Terima kasih sudah berkunjung.</h2><p>Temukan profil profesional dan aktivitas saya melalui LinkedIn dan Instagram.</p></div>
+        <a class="btn btn-primary" href="https://www.instagram.com/arjunwijaya1/" target="_blank" rel="noopener">@arjunwijaya1 ↗</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container foot">
+    <span>© 2026 Arjun Wijaya, S.P · Agriculture Professional</span>
+    <div style="display:flex;gap:18px;flex-wrap:wrap">
+      <a class="social" href="https://id.linkedin.com/in/arjun-wijaya-3a41ab324" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a class="social" href="https://www.instagram.com/arjunwijaya1/" target="_blank" rel="noopener">Instagram ↗</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('show'); });
+  }, {threshold:.08});
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  const nav = document.querySelector('.nav-links');
+  document.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click',()=>nav.classList.remove('open')));
+</script>
+</body>
+</html>
